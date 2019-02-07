@@ -1,0 +1,23 @@
+---
+label: Blog Post
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Title Text
+  name: Title
+  config:
+    required: true
+- type: file
+  name: hero_image
+  label: Hero Image
+  description: shown at top of screen under title
+  config:
+    maxSize: '1'
+- type: tag_list
+  name: tags
+  label: tags
+  description: content tags
+pages:
+- _posts/2019-02-07-trunks-post.md
+- _posts/2019-02-07-xxxcodexxx.md
