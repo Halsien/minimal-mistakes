@@ -114,7 +114,7 @@ author:
   links:
     - label: "Get in Touch"
       icon: "fas fa-fw fa-envelope-square"
-       url: mailto:hello@nickrowdon.com
+      url: mailto:hello@nickrowdon.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -241,7 +241,7 @@ whitelist:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-
+  - jekyll-seo-tag
 
 # Archives
 #  Type
