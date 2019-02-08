@@ -8,6 +8,20 @@
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
+
+
+
+<script src="https://unpkg.com/simple-jekyll-search@1.5.0/dest/simple-jekyll-search.min.js"></script>
+<script>
+SimpleJekyllSearch({
+  search-input: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/search.json',
+  searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>'
+})
+</script>
+
+
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
     {% include head.html %}

@@ -216,6 +216,12 @@ sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
+#Algolia
+algolia:
+  application_id: 'GC8KLT7FSF'
+  index_name:     jekyll # You can replace that with whatever name you want
+  search_only_api_key: ed157134718f41b550ae10299110b8e2
+
 
 # Outputting
 permalink: /:categories/:title/
@@ -232,6 +238,9 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-algolia
 
 # mimic GitHub Pages with --safe
 whitelist:

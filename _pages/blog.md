@@ -8,7 +8,9 @@ comments: false
 
 My knowledge, revised and presented with the key information for you in a beautiful blog post.
 
-
+<input type="text" id="search-input" placeholder="search posts..">
+<br/>
+<div id="results-container"></div>
 
 <ul>
   {% for post in site.posts %}
@@ -25,4 +27,3 @@ My knowledge, revised and presented with the key information for you in a beauti
    {% include archive-single.html %}
   {% endfor %}
 </ul>
-
