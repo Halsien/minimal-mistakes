@@ -19,13 +19,13 @@ locale                   : "en-US"
 title                    : "Nick Rowdon: Helping You Turn Words Into Money!"
 title_separator          : "-"
 name                     : "Nick Rowdon"
-description              : "Do you want real profit from your marketing?"
-url                      : "https://halsien.github.io"
-baseurl                  : "/minimal-mistakes"
-repository               : #"Halsien/minimal-mistakes"
+description              : "An amazing website."
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Ooooo Shiny" #"Helping You Turn Words Into Money!"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -107,14 +107,14 @@ analytics:
 # Site Author
 author:
   name             : "Nick Rowdon"
-  avatar           : /assets/images/me.jpg
+  avatar           : /images/me.jpg
   bio              : "I'm a direct response copywriter. I take your service or product and generate huge amounts of profit for you through my words."
-  location         : "Toronto, Ontario, Canada"
-  email            : hello@nickrowdon.com
+  location         : "Canada"
+  email            :
   links:
-    - label: "Get In Touch"
+    - label: "Get in Touch"
       icon: "fas fa-fw fa-envelope-square"
-      #url: mailto:hello@nickrowdon.com
+       url: mailto:hello@nickrowdon.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -158,7 +158,6 @@ footer:
 include:
   - .htaccess
   - _pages
-  
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
